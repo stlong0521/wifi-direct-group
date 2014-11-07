@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        
+    <!-- TextView here -->
+    <TextView
+        android:id="@+id/head"
+		android:text="@string/text_view" 
+		android:textSize="18dp" 
+		android:background="#AA3333FF"
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content"/>
+    
+	<!-- ListView here -->
+	<ListView
+	    android:id="@+id/list_view"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:paddingBottom="5dp"
+	    android:paddingTop="5dp" 
+	    android:scrollbars="vertical"/>
+	
+	<!-- CheckBox here -->
+    <LinearLayout
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		
+        <CheckBox
+            android:id="@+id/checkbox_go"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cb_go"
+            android:enabled="false"/>
+          	
+        <CheckBox
+            android:id="@+id/checkbox_ct1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cb_ct1"
+            android:enabled="false"/>
+          	
+        <CheckBox
+            android:id="@+id/checkbox_ct2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cb_ct2"
+            android:enabled="false"/>
+        
+        <CheckBox
+            android:id="@+id/checkbox_ct3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cb_ct3"
+            android:enabled="false"/>
+        
+        <CheckBox
+            android:id="@+id/checkbox_ct4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cb_ct4"
+            android:enabled="false"/>
+        
+        <CheckBox
+            android:id="@+id/checkbox_ct5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cb_ct5"
+            android:enabled="false"/>
+        
+	</LinearLayout>	
+	
+	<!-- EditText and Button here -->
+	<LinearLayout
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+	
+	    <EditText android:id="@+id/edit_message"
+	        android:layout_weight="1"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/edit_message"/> 
+	         
+	    <Button
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/button_send" 
+	        android:onClick="sendMessage"/>
+    
+    </LinearLayout>
+    
+</LinearLayout>

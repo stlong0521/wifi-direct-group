@@ -21,7 +21,7 @@ Prerequisites: Android OS with version 4.0 or above
 * Open Eclipse and import the project by clicking "File->Import..."
 * Connect your smart device(s) to your computer using a USB cable
 * Enable USB debugging on your smart device(s) in "Settings->Developer options"
-* Build the project and download it to the smart device(s)
+* Run the project and download it to the smart device(s)
 
 ## How it works
 * Install the app to two or more smart devices following the instructions above

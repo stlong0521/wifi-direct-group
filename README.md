@@ -1,5 +1,5 @@
-Peer-To-Peer Communications via WiFi Direct and Android Applicaiton Development
-=================
+Android Applicaiton for Peer-To-Peer Communications via WiFi Direct
+===================================================================
 
 ## Introduction
 This is an Android application, which forms a WiFi Direct group with relays to achieve better WiFi coverage. More specifically, the WiFi Direct group contains users, who can communicate with each other and/or access the Internet via one or more of its peers as relay(s), in order to achieve better WiFi coverage. The designed communication protocols and human-machine interfaces are integrated into this application.

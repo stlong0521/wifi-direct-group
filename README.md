@@ -30,6 +30,6 @@ Prerequisites: Android OS with version 4.0 or above
 * Click the check box(es) associating to each device you want to talk to, and send message(s)
 * Messages will be successfully sent, if everything above goes correctly.
 
-## Contributor(s)
+## Contributors
 * Tianlong Song
 * Jose R. Llera
